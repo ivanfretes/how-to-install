@@ -1,10 +1,12 @@
 ## Pasos para instalar Oracle 11g XE en Debian ##
 
-	# Path donde se almacena el archivo
-	MY_ORACLE_DOWNLOAD='/home/ivan/Downloads/oracle-xe-11g/files'
+Verifique sus directorios
+
+	# Path donde se almacena el archivo (rempl)
+	MY_ORACLE_DOWNLOAD='~/Downloads'
 	
 	# Path del archivo install.sh, actualizar, si se mueve de PATH
-	PATH_ORACLE_INSTALL='/home/ivan/Documents/Test/how-to-install/oracle-xe-11g'
+	PATH_ORACLE_INSTALL='~/how-to-install/oracle-xe-11g-debian'
 
 	# Nombre del archivo
 	ORACLE_FILE_NAME='oracle-xe-11.2.0-1.0.x86_64'
@@ -15,6 +17,10 @@
 	# y compilarlo para cada uso
 	BASHRC='~/bashrc'
 
+
+### Ejecute el script ###
+
+	sh install.sh
 
 ### Verificar que el archivo que se asigno al path BASHRC cuente con estas varibles definidas (Si no las copió, copiarlas) ### 
 
@@ -29,6 +35,7 @@
 <center><img src="screen-install.png" width="640"></center>
 
 ### Iniciar el servicio del Oracle XE ###
+
 	service oracle-xe start
 
 	# Si el servicio esta iniciado, ejecute el siguiente comando y 

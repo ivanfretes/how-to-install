@@ -7,7 +7,7 @@ fi
 
 
 MY_ORACLE_DOWNLOAD='/home/ivan/Downloads/oracle-xe-11g/files'
-PATH_ORACLE_INSTALL='/home/ivan/Documents/Test/how-to-install/oracle-xe-11g'
+PATH_ORACLE_INSTALL='/home/ivan/Documents/Test/how-to-install/oracle-xe-11g-debian'
 ORACLE_FILE_NAME='oracle-xe-11.2.0-1.0.x86_64'
 BASHRC='/etc/bash.bashrc'
 
