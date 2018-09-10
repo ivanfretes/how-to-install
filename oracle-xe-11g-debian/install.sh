@@ -83,4 +83,4 @@ echo "export PATH" >> "$BASHRC"
 # Compilacion del archivo, de varible
 source "$BASHRC"
 
-/etc/init.d/oracle-xe configure
+

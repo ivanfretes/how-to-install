@@ -22,6 +22,11 @@ Verifique sus directorios
 
 	sh install.sh
 
+
+### Configurar el puerto http, el puerto a ser empleado por la base de datos y la contraseña por defecto###
+	
+	/etc/init.d/oracle-xe configure
+
 ### Verificar que el archivo que se asigno al path BASHRC cuente con estas varibles definidas (Si no las copió, copiarlas) ### 
 
 
